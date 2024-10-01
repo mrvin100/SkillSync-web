@@ -1,7 +1,7 @@
 import { TypographyH1 } from "../ui/typographies";
-import HomeSearchForm from "./HomeSearchForm";
+import HomeSearchForm from "@/components/home/home-searchform";
 
-const Home = () => {
+export const Home: React.FC = () => {
   return (
     <div>
       <TypographyH1>home page</TypographyH1>
@@ -9,5 +9,3 @@ const Home = () => {
     </div>
   );
 };
-
-export default Home;
