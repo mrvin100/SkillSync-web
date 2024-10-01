@@ -1,5 +1,3 @@
-import { Footer } from "@/components/global/footer";
-
 export default function AuthLayout({
   children,
 }: {
@@ -8,7 +6,6 @@ export default function AuthLayout({
   return (
     <>
       {children}
-      <Footer />
     </>
   );
 }

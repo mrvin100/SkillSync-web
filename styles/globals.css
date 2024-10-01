@@ -74,3 +74,10 @@
   transition: 300ms;
   @apply text-secondary-foreground px-5 py-3 hover:text-primary font-medium
 }
+
+.signup-img{
+  background-image: url('/images/sign-up.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
