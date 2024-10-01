@@ -70,4 +70,7 @@
   }
 }
 
-
+.nav-link {
+  transition: 300ms;
+  @apply text-secondary-foreground px-5 py-3 hover:text-primary font-medium
+}

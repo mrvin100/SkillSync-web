@@ -19,7 +19,7 @@ import { Separator } from "../ui/separator";
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="bg-primary text-primary-foreground">
+    <footer className="bg-primary text-primary-foreground font-medium">
       <Spacer small />
       <AppContainer
         className={cn(
@@ -48,58 +48,58 @@ export const Footer: React.FC = () => {
           </li>
         </ul>
         </div>
-        <ul className="text-xl space-y-3">
+        <ul className="text-lg space-y-3">
           <li>
-            <Link href={"/projets"} className="nav-link block">
+            <Link href={"/projets"} className="block">
               Project
             </Link>
           </li>
           <li>
-            <Link href={"/how-it-works"} className="nav-link block">
+            <Link href={"/how-it-works"} className="block">
               How it works
             </Link>
           </li>
           <li>
-            <Link href={"/who-we-help"} className="nav-link block">
+            <Link href={"/who-we-help"} className="block">
               Who we help
             </Link>
           </li>
           <li>
-            <Link href={"/get-involved"} className="nav-link block">
+            <Link href={"/get-involved"} className=" block">
               Get involved
             </Link>
           </li>
         </ul>
-        <ul className="text-xl space-y-3">
+        <ul className="text-lg space-y-3">
           <li>
-            <Link href={"/about"} className="nav-link block">
+            <Link href={"/about"} className=" block">
               About us
             </Link>
           </li>
           <li>
-            <Link href={"/faqs"} className="nav-link block">
+            <Link href={"/faqs"} className=" block">
               FAQs
             </Link>
           </li>
           <li>
-            <Link href={"/contact"} className="nav-link block">
+            <Link href={"/contact"} className=" block">
               Contact
             </Link>
           </li>
         </ul>
-        <ul className="text-xl space-y-3">
+        <ul className="text-lg space-y-3">
           <li>
-            <Link href={"/privacy"} className="nav-link block">
+            <Link href={"/privacy"} className=" block">
               Privacy
             </Link>
           </li>
           <li>
-            <Link href={"/terms"} className="nav-link block">
+            <Link href={"/terms"} className=" block">
               Terms
             </Link>
           </li>
           <li>
-            <Link href={"/sitemap"} className="nav-link block">
+            <Link href={"/sitemap"} className=" block">
               Sitemap
             </Link>
           </li>
