@@ -19,7 +19,7 @@ export const Header: React.FC<HeaderProps> = ({ transparentBg = false }) => {
   return (
     <header
       className={clsx(
-        "py-3 lg:py-5",
+        "py-3 lg:py-5 shadow-sm",
         "transition-all duration-300",
         transparentBg ? "bg-primary text-primary-foreground" : "bg-transparent"
       )}
