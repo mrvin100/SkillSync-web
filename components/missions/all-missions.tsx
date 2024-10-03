@@ -1,6 +1,6 @@
 import * as React from "react";
 import { TypographyH3, TypographyH4 } from "@/components/ui/typographies";
-import { Spacer } from "../global/spacer";
+import { Spacer } from "@/components/global/";
 import { Service } from "@/helpers/service.model";
 import Image from "next/image";
 
